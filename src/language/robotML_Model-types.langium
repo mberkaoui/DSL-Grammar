@@ -108,8 +108,8 @@ interface Rotation extends Statement {
 	angle: Expression;
 }
 
-interface Vitesse{
-	valeur: Expression;
+interface Vitesse extends Statement {
+	valeur: CstNumber;
 	unite: Unite;
 }
 

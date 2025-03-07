@@ -107,7 +107,7 @@ Rotation returns Rotation:
 ;
 
 Vitesse returns Vitesse:
-    'setSpeed' '(' (valeur=Expression 'in' unite=Unite) ')'
+    'setSpeed' '(' (valeur=CstNumber 'in' unite=Unite) ')'
 ;
 
 Block returns Block:
